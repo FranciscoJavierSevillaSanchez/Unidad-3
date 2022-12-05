@@ -1,0 +1,21 @@
+class Ejercicio1:
+  def Max(list):
+    if len(list) == 1:
+      return list[0]
+    else:
+      m = max(list[1:])
+    return m if m > list [0] else list [0]
+
+  def listaN():
+    numeros = [16,8,15,22,1]
+    print(numeros)
+    print("el mayor es: ", max(numeros))
+
+obj = Ejercicio1
+obj.listaN()
+
+
+
+el resula debe ser :
+[16, 8, 15, 22, 1]
+el mayor es:  22
