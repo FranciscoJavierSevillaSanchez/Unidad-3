@@ -1,0 +1,18 @@
+def ordenar(lista, cant):
+  if cant>1:
+    for f in range(0, cant-1):
+      if lista[f]<lista[f + 1]:
+        aux=lista[f]
+        lista[f]=lista[f + 1]
+        lista[f + 1] = aux
+      ordenar(lista, cant - 1)
+
+datos=[21,65,36,45,15,59]*1
+print(datos)
+ordenar(datos, len(datos))
+print(datos)
+
+
+el resultado deberia ser:
+[21, 65, 36, 45, 15, 59]
+[65, 59, 45, 36, 21, 15]
