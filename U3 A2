@@ -1,0 +1,25 @@
+texto= "Hola amigo como estas hoy"
+X=texto.split()
+print (X)
+texto2= "Hola bien gracias"
+X2=texto2.split()
+print (X2)
+if texto == texto2:
+ print("las dos frases son iguales ")
+if X[0]==X2[0] or X[0]==X2 [1] or X[0]==X2 [2]:
+ print("las palabras iguales son:",X[0])
+if X[1]==X2[0] or X[1]==X2[1] or X[1] ==X2 [2]:
+ print("las palabras iguales son:",X[1])
+if X[2]==X2[0] or X[2]==X2[1] or X[2]==X2[2]:
+ print("las palabras iguales son: ",X[2])
+if X[3]==X2[0] or X[3]==X2 [1] or X[3] ==X2 [2]:
+ print("las palabras iguales son:",X[3])
+if X[4]==X2[0] or X[4]==X2[1] or X[4]==X2 [2]:
+ print("las palabras iguales son: ",X[4])
+ 
+ 
+ 
+ el resultado seria:
+['Hola', 'amigo', 'como', 'estas', 'hoy']
+['Hola', 'bien', 'gracias']
+las palabras iguales son: Hola
