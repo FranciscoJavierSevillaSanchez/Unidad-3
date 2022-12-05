@@ -1,0 +1,34 @@
+pila = []
+print("Entrada")
+pila.append('G')
+print('G')
+pila.append('E')
+print('E')
+pila.append('O')
+print('O')
+pila.append('R')
+print('R')
+print("Salida")
+n=pila.pop()
+print(n)
+n=pila.pop()
+print(n)
+n=pila.pop()
+print(n)
+n=pila.pop()
+print(n)
+
+
+
+
+el resultado deberia ser:
+Entrada
+G
+E
+O
+R
+Salida
+R
+O
+E
+G
