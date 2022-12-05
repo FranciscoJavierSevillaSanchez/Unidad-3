@@ -1,0 +1,15 @@
+class arreglo:
+  def entrada (self):
+    self.lista= []
+    self.lista.append(115)
+    self.lista.append("Elemento")
+    self.lista.append(117)
+    self.lista.append("Sub Oficial Jefe Maestro")
+    print (self.lista)
+obj=arreglo()
+obj. entrada ()
+
+
+
+el resultado es:
+[115, 'Elemento', 117, 'Sub Oficial Jefe Maestro']
