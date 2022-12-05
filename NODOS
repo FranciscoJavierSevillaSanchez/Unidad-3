@@ -1,0 +1,25 @@
+class Nodo(object):
+  def __init__( self, dato,prox=None ):
+    self.Dato = dato
+    self.Prox = prox
+  def __str__(self):
+    return 'Nodo ['+str(self.Dato)+']'
+  def dato(self):
+    return self.Dato
+  def dato(self,dato):
+    self.Dato = dato
+  def proximo(self):
+    return self.Prox
+  def proximo(self,prox):
+    self.Prox = prox 
+
+if __name__ == '__main__':
+ nodo1 = Nodo("Papas")
+ nodo2 = Nodo("Coca",nodo1)
+ nodo3 = Nodo("Pastel",nodo2)
+ print (nodo1.dato,nodo1.proximo)
+ print (nodo2.dato,nodo2.proximo)
+ print (nodo3.dato,nodo3.proximo)
+ print (nodo1)
+ print (nodo2)
+ print (nodo3)
